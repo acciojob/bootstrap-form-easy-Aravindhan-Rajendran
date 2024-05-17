@@ -8,10 +8,11 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form class="form-control">
+	<form>
 	<h1 style="text-align:center;">Intership Form</h1>
-		<label for="first-name-input" class="form-label">First Name</label>
+		<label for="first-name-input"  class="form-control">First Name</label>
 		<input type="text" id="first-name-input" required>
+		<div class="invalid-feedback"></div>
 		<label for="last-name-input" class="form-label">Last Name</label>
 		<input type="text" id="last-name-input" required>
 		<label for="email-input" class="form-label">Email Address</label>
@@ -19,7 +20,7 @@
 		<label for="college-input" class="form-label">College</label>
 		<input type="text" id="college-input" required>
 		<label for="grauate" class="form-label">Graduation Year</label>
-		<select>
+		<select id="grauate">
 			<option>Choose...</option>
 			<option>2020</option>
 			<option>2021</option>
