@@ -12,12 +12,24 @@
 	<form class="form-control">
 		<label for="first-name-input" class="form-label">First Name</label>
 		<input type="text" id="first-name-input" class="form-control" required>
+		<div class="invalid-feedback">
+             First name required!
+        </div>
 		<label for="last-name-input" class="form-label">Last Name</label>
 		<input type="text" id="last-name-input" class="form-control" required>
+		<div class="invalid-feedback">
+             Last name required!
+        </div>
 		<label for="email-input" class="form-label">Email Address</label>
-		<input type="email" id="email-input" class="form-control" required><br>
+		<input type="email" id="email-input" class="form-control" required>
+		<div class="invalid-feedback">
+             Email required!
+        </div><br>
 		<label for="college-input" class="form-label">College</label>
 		<input type="text" id="college-input" class="form-control" required>
+		<div class="invalid-feedback">
+             Please provide a vaild college
+        </div>
 		<label for="grad-year-select" class="form-label">Graduation Year</label>
 		<select id="grad-year-select" class="form-select" required>
 			<option>Choose...</option>
@@ -26,9 +38,18 @@
 			<option>2022</option>
 			<option>2023</option>
 		</select>
+		<div class="invalid-feedback">
+             Please select a vaild Graduation Year
+        </div>
 		<label for="roll-no-input" class="form-label">Roll No.</label>
-		<input type="text" id="roll-no-input" class="form-control" required><br>
+		<input type="text" id="roll-no-input" class="form-control" required>
+		<div class="invalid-feedback">
+             Please provide a vaild Roll no.
+        </div><br>
 		<input type="checkbox" id="conditions-checkbox" class="form-check-input" required>
+		<div class="invalid-feedback">
+             You must agree before submitting.
+        </div>
 		<label for="conditions-checkbox" class="form-label">Agree to terms and conditions</label><br>
 		<input type="submit" value="submit form" class="form-control" required>
 	</form>
